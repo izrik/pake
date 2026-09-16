@@ -32,9 +32,9 @@ fi
 retval=$?
 
 if [ "0" == "$retval" ] ; then
-  say "$label" successful
+  say "$label successful"
 else
-  say "$label" failed
+  say "$label failed"
 fi
 
 exit $retval
